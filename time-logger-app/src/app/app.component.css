@@ -1,0 +1,51 @@
+.topBar{
+    height: 49px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+   
+}
+
+.logo-image{
+    width: 28px;
+    height: 28px;
+    border: 5px 2px 5px;
+    position: relative;
+    margin-left: 3px; 
+}
+
+.logotext{
+    color: white;
+}
+
+.profile-photo{
+    width: 28px;
+    height: 28px;
+    /* margin-left: auto; */
+}
+
+.horizontalBar{
+    width: 181px;
+    height: 1024px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+.imgContent {
+    float: left; /* Float the image to the left */
+    margin-right: 10px; /* Optional: Add some space between the image and text */
+    display: inline;
+  }
+
+.imgText {
+    margin-top: 10px;
+}
+
+
+
+
